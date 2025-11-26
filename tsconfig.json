@@ -1,16 +1,9 @@
 {
   "compilerOptions": {
-    // Configurations listed at https://www.prisma.io/docs/orm/more/upgrade-guides/upgrading-versions/upgrading-to-prisma-7
-    "module": "ESNext",
-    "moduleResolution": "node",
-    "target": "ES2023",
-    "strict": true,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "resolvePackageJsonExports": true,
     "esModuleInterop": true,
-
-    // "module": "nodenext",
-    // "moduleResolution": "nodenext",
-    // "resolvePackageJsonExports": true,
-    // "esModuleInterop": true,
     "isolatedModules": true,
     "declaration": true,
     "removeComments": true,
